@@ -1,1 +1,60 @@
-/Users/jarednipper/.atom/config.cson
+"*":
+  "Sublime-Style-Column-Selection":
+    mouseButtonTrigger: "Middle"
+    selectKeyTrigger: "None"
+  "activate-power-mode":
+    autoToggle: false
+  "atom-autocomplete-php": {}
+  autosave:
+    enabled: true
+  core:
+    disabledPackages: [
+      "spell-check"
+      "wrap-guide"
+      "welcome"
+      "atom-ctags"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "Thumbs.db"
+    ]
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "FiraCode-Light"
+    fontSize: 13
+    invisibles:
+      eol: " "
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "ba79ceae-f106-88d9-e7c9-6697581cf168"
+  "fuzzy-finder": {}
+  "markdown-preview-plus":
+    useGitHubStyle: true
+  minimap:
+    minimapScrollIndicator: false
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+  "minimap-git-diff": {}
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  tabs:
+    enableVcsColoring: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
+    tabLength: 4
